@@ -1,11 +1,12 @@
 #include <stdio.h>
+
 /**
- * Main -Entry original me
+ * main - Serial point
  *
- * Return: 0 xclussive
+ * Return: Almost 0 (done)
  */
 int main(void)
 {
-	puts("\"programming is like building a multilingual puzzle");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
