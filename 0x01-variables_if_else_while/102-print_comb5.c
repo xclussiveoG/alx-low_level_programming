@@ -1,23 +1,35 @@
 #include <stdio.h>
 
 /**
- * main - prints all single digit numbers of base
- * 10 starting from 0, followed by a new line
+ * main - prints the alphabet in lowercase,
+ * followed by a new line, except q and e
  *
- * Return: Almost 0 (done)
+ * Return: Always 0 (done)
  */
 
 int main(void)
 
 {
 
-	int n;
+	char ch = 'a';
 
-	for (n = 0; n < 10; n++)
+	while (ch <= 'z')
 
-	printf("%d", n);
+	{
 
-	printf("\n");
+		if (ch != 'e' && ch != 'q')
+
+	{
+
+		putchar(ch);
+
+	}
+
+		ch++;
+
+	}
+
+		putchar('\n');
 
 	return (0);
 
