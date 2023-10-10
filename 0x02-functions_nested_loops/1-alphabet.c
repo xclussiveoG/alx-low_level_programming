@@ -8,5 +8,6 @@
 int main(void)
 {
 	print_alphabet();
+	putchar
 	return (0);
 }
