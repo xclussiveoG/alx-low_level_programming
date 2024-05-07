@@ -1,4 +1,4 @@
-#include "search_algos.h"
+#include <math.h>
 
 /**
  * perform_linear_search - searches for a value in a sorted array of integers
